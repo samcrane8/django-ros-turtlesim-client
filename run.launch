@@ -1,6 +1,4 @@
 <launch>
-
   <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
-  <node pkg="django_turtle" name="djang_turt" type="djangoChannelsRosClient.py"/>
-
+  <node pkg="django-ros-turtlesim-client" name="djang_turt" type="djangoChannelsRosClient.py"/>
 </launch>
